@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    font-family: 'PT Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+a:hover::after{
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.slider{
+    height: 600px;
+}
+.anim-icon .icon-1{
+    width: 130px;
+    height: 130px;
+    left: 60px;
+    top: 50%;
+    -webkit-animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
+  }
+  
+  .anim-icon .icon-2{
+    width: 110px;
+    height: 110px;
+    left: 80px;
+    top: 40%;
+    -webkit-animation: animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;
+  }
+  
+  .anim-icon .icon-3{
+    width: 60px;
+    height: 60px;
+    left: 200px;
+    top: 30%;
+    -webkit-animation: animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;
+  }
+  
+  .anim-icon .icon-4{
+    width: 130px;
+    height: 130px;
+    right: 60px;
+    top: 50%;
+    -webkit-animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
+  }
+  
+  .anim-icon .icon-5{
+    width: 110px;
+    height: 110px;
+    right: 90px;
+    top: 40%;
+    -webkit-animation: animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;
+  }
+  
+  .anim-icon .icon-6{
+    width: 60px;
+    height: 60px;
+    right: 200px;
+    top: 30%;
+    -webkit-animation: animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;
+  }
+  
+  .anim-icon .icon-7{
+    width: 130px;
+    height: 107px;
+    right: 80px;
+    top: 10%;
+    -webkit-animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
+  }
+  
+  .anim-icon .icon-8{
+    width: 70px;
+    height: 58px;
+    right: 220px;
+    top: 0%;
+    -webkit-animation: animateBubble 20s linear infinite,sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 20s linear infinite,sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 20s linear infinite,sideWays 4s ease-in-out infinite alternate;
+  }
+  
+  .anim-icon .icon-9{
+    top: 20%;
+    -webkit-animation: animateBubble 19s linear infinite,sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 19s linear infinite,sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 19s linear infinite,sideWays 4s ease-in-out infinite alternate;
+  }
+  
+  .anim-icon .icon-10{
+    top: 30%;
+    -webkit-animation: animateBubble 16s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 16s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 16s linear infinite,sideWays 2s ease-in-out infinite alternate;
+  }
+  
+  .anim-icon .icon-11{
+    top: 40%;
+    -webkit-animation: animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;
+  }
+  
+  .anim-icon .icon-12{
+    top: 30%;
+    -webkit-animation: animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;
+  }
+  
+  .anim-icon .icon-13{
+    top: 10%;
+    -webkit-animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
+  }
+  
+  .anim-icon .icon-14{
+    top: 0%;
+    -webkit-animation: animateBubble 20s linear infinite,sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 20s linear infinite,sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 20s linear infinite,sideWays 4s ease-in-out infinite alternate;
+  }
+  
+  .anim-icon .icon-15{
+    top: 20%;
+    -webkit-animation: animateBubble 19s linear infinite,sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 19s linear infinite,sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 19s linear infinite,sideWays 4s ease-in-out infinite alternate;
+  }
+  
+  .anim-icon .icon-16{
+    top: 30%;
+    -webkit-animation: animateBubble 16s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 16s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 16s linear infinite,sideWays 2s ease-in-out infinite alternate;
+  }
+  @keyframes pulse {
+      50% {
+          box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.5);
+      }
+    }
+    
+    @-webkit-keyframes ripple {
+    70% {
+      -webkit-box-shadow: 0 0 0 40px rgba(255, 255, 255, 0);
+              box-shadow: 0 0 0 40px rgba(255, 255, 255, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+              box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+    }
+    @keyframes ripple {
+    70% {
+      -webkit-box-shadow: 0 0 0 40px rgba(255, 255, 255, 0);
+              box-shadow: 0 0 0 40px rgba(255, 255, 255, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+              box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+      }
+    }
+  .anim-icon{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+  
+  }
+  .anim-icon .icon{
+    position: absolute;
+  }
+  .less-production .anim-icon .icon-1{
+    border-width: 15px;
+    border-style: solid;
+    border-color: #f49f7b transparent transparent transparent;
+    
+  }
+  
+  .less-production .anim-icon .icon-2{
+    border-width: 15px;
+    border-style: solid;
+    border-color: #f49f7b transparent transparent transparent;
+  }
+  
+  .less-production .anim-icon .icon-3{
+    border-width: 30px;
+    border-style: solid;
+    border-color: #f49f7b transparent transparent transparent;
+  }
+  
+  .less-production .anim-icon .icon-4{
+      background: #01cccb;
+  }
+  
+  .less-production .anim-icon .icon-5{
+      background: #01cccb;
+  }
+  
+  .less-production .anim-icon .icon-6{
+      background: #f49f7b;
+  }
+  
+  .less-production .anim-icon .icon-7{
+    border-width: 20px;
+    border-style: solid;
+    border-color: #193d84  transparent transparent transparent;
+  }
+  
+  .less-production .anim-icon .icon-8{
+    border-width: 25px;
+    border-style: solid;
+    border-color: #de9dad transparent transparent transparent;
+  }
+  
+  .less-production .anim-icon .icon-9{
+      background: #01cccb;
+  }
+  
+  .less-production .anim-icon .icon-10{
+      background: #01cccb;
+  }
+  
+  .less-production .anim-icon .icon-11{
+      background: #01cccb;
+  }
+  
+  .less-production .anim-icon .icon-12{
+      background: #de9dad;
+  }
+  
+  .less-production .anim-icon .icon-13{
+      background: #f39f7b;
+  }
+  
+  .less-production .anim-icon .icon-14{
+      border: 2px solid #f4aa8b;
+  }
+  
+  .less-production .anim-icon .icon-15{
+      border: 2px solid #d799a9;
+  }
+  .less-production .anim-icon .icon-1{
+      width: 40px;
+      height: 40px;
+      left: 60px;
+      bottom: 25px;
+  }
+  
+  .less-production .anim-icon .icon-2{
+      width: 30px;
+      height: 30px;
+      left: 70px;
+      bottom: 130px;
+  }
+  
+  .less-production .anim-icon .icon-3{
+      width: 20px;
+      height: 20px;
+      left: 75px;
+      bottom: 240px;
+  }
+  
+  .less-production .anim-icon .icon-4{
+      width: 40px;
+      height: 40px;
+      right: 150px;
+      bottom: 220px;
+  }
+  
+  .less-production .anim-icon .icon-5{
+      width: 20px;
+      height: 20px;
+      right: 200px;
+      bottom:500px;
+  }
+  
+  .less-production .anim-icon .icon-6{
+      width: 15px;
+      height: 15px;
+      right: 250px;
+      top: 50%;
+  }
+  
+  .less-production .anim-icon .icon-7{
+      width: 20px;
+      height: 20px;
+      bottom: 95px;
+      right: 290px;
+  }
+  
+  .less-production .anim-icon .icon-8{
+      width: 20px;
+      height: 20px;
+      bottom: 20px;
+      right: 450px;
+  }
+  
+  .less-production .anim-icon .icon-9{
+      width: 40px;
+      height: 40px;
+      bottom: 150px;
+      right: 560px;
+  }
+  
+  .less-production .anim-icon .icon-10{
+      left: 33px;
+      width: 40px;
+      height: 40px;
+  }
+  
+  .less-production .anim-icon .icon-11{
+      left: 335px;
+      width: 20px;
+      height: 20px;
+  }
+  
+  .less-production .anim-icon .icon-12{
+      left: 380px;
+      width: 20px;
+      height: 20px;
+  }
+  
+  .less-production .anim-icon .icon-13{
+      left: 580px;
+      width: 20px;
+      height: 20px;
+  }
+  
+  .less-production .anim-icon .icon-14{
+      left: 580px;
+      width: 20px;
+      height: 20px;
+  }
+  
+  .less-production .anim-icon .icon-15{
+    left: 720px;
+    width: 20px;
+}
+
+.less-production-boxes ul li {
+    z-index: 500;
+    position: relative;
+    overflow: hidden;
+}
+.blog-box-txt span{
+    font-size: 1.5rem;
+    color: #4d3d2e;
+    font-weight: 600;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.blog-box:hover .blog-box-txt span{
+    color: #193d84;
+}
